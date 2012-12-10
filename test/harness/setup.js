@@ -1,2 +1,4 @@
 mocha.setup({ ui : 'bdd', reporter : 'tap' });
-mocha.run();
+setTimeout(function () {
+    mocha.run();
+}, 50);
