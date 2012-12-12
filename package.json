@@ -9,10 +9,7 @@
         "ie6", "ie7", "ie8", "ie9",
         "firefox/15", "chrome/22", "opera/12", "safari/5.1"
     ],
-    "scripts": [
-        "node_modules/mocha/mocha.js",
-        "test/harness/setup.js"
-    ],
+    "harness" : "mocha",
     "files": "test/*.js"
   },
   "license": "MIT"
